@@ -161,6 +161,8 @@ export abstract class Confirmacion {
   }
 
   protected loadConfirmacionInfo(accessToken: string) {
+    if (!accessToken) return;
+
     this.apiServ.getInvitadoYConfirmacion(accessToken)
       .subscribe({
         next: invitacion => {

@@ -1,6 +1,10 @@
 export const TEXT_ES:{[key: string]: string } = {
   primerTitulo: '¡NOS CASAMOS!',
   tNombres: 'Wendy y Christian',
+  splashClick: 'Haz clic aquí',
+  envelopeFor: 'Para',
+  seatReservedSingular: 'asiento reservado',
+  seatReservedPlural: 'asientos reservados',
   traduccion: 'Traducir a Inglés',
   pCancion: 'Tu navegador no soporta el elemento de audio.',
   subTitulo: 'You are invited!',

@@ -17,7 +17,8 @@ export class ApiService {
   }
 
   public getInvitadoYConfirmacion(access_token: string, queryParams?: string) {
-    return this.httpClient.get<InvitadoModelRespose>(`${this.API_BASE_URL}/invitados/${access_token}?${queryParams}`)
+    const params = queryParams ? `?${queryParams}` : '';
+    return this.httpClient.get<InvitadoModelRespose>(`${this.API_BASE_URL}/invitados/${access_token}${params}`)
   }
 
 }

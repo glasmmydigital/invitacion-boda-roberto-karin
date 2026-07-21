@@ -1,6 +1,10 @@
 export const TEXT_EN:{[key: string]: string } = {
   primerTitulo: 'WE MERRIED!',
   tNombres: 'Valeria & Josué',
+  splashClick: 'Click here',
+  envelopeFor: 'For',
+  seatReservedSingular: 'reserved seat',
+  seatReservedPlural: 'reserved seats',
   traduccion: 'Translate to Spanish',
   pCancion: 'Your browser does not support the audio element.',
   subTitulo: 'You are invited!',

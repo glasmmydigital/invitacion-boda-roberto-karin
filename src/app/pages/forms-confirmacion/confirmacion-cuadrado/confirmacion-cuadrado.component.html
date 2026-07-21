@@ -213,15 +213,15 @@
             <h5 class="text text-center" *ngIf="!invitacionConfimacion?.confirmacion">
               {{ confirmContainer['sin-acompanantes'] || traductorService.getTexto('txtNoAsistencia') }}
             </h5>
-            <div *ngFor="let acompanante of invitacionConfimacion.confirmacion?.acompanantes?.split(',')">
+            <div *ngFor="let acompanante of invitacionConfimacion.confirmacion.acompanantes?.split(',')">
               <!-- Aquí puedes mostrar información específica de cada acompañante -->
             </div>
-            <ul class="list-group list-group-flush text-center" [ngStyle]="{'list-style-type': (invitacionConfimacion.confirmacion?.acompanantes && cantAsistir > 1) ? 'disc' : 'none'}">
+            <ul class="list-group list-group-flush text-center" [ngStyle]="{'list-style-type': (invitacionConfimacion.confirmacion.acompanantes && cantAsistir > 1) ? 'disc' : 'none'}">
               <li *ngFor="let acompanante of (
-                  (invitacionConfimacion.confirmacion?.acompanantes === 'No especificado' && cantAsistir > 1)
+                  (invitacionConfimacion.confirmacion.acompanantes === 'No especificado' && cantAsistir > 1)
                     ? [traductorService.getTexto('invitNoEspecificado')]
-                    : (invitacionConfimacion.confirmacion?.acompanantes
-                        ? (invitacionConfimacion.confirmacion?.acompanantes || '').split(',')
+                    : (invitacionConfimacion.confirmacion.acompanantes
+                        ? invitacionConfimacion.confirmacion.acompanantes.split(',')
                         : []
                     )
                 )"
@@ -230,7 +230,7 @@
               </li>
             </ul>
 
-            <h5 class="text text-center" *ngIf="!invitacionConfimacion.confirmacion?.acompanantes">
+            <h5 class="text text-center" *ngIf="!invitacionConfimacion.confirmacion.acompanantes">
               {{ confirmContainer['sin-acompanantes'] || traductorService.getTexto('txtNoAsistencia') }}
             </h5>
             <br>

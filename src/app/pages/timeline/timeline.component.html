@@ -1,108 +1,71 @@
-<div class="contenedor-timeline">
-  <div>
-    <img src="assets/IMGFlores(4).png" class="img-1" data-aos="zoom-in-right">
-  </div>
+<section class="contenedor-timeline">
+  <img src="assets/IMGFlores(4).png" class="img-1" data-aos="zoom-in-right" alt="">
+
   <div class="colum-timeline">
-    <div class="colum-timeline-text">
-      <br /><br />
-      
-      <p class="timeline1" data-aos="zoom-in" data-aos-duration="3000">
-        {{ traductorService.getTexto("tituloItinerario1") }}
-      </p>
-      <p class="linea">──────── ◆ ────────</p>
-    </div>
-    <br /><br />
-    <div class="timeline-container">
-      <div class="timeline-column-left">
-        <div class="event">
-          <img
-            src="assets/iglesia.png"
-            data-aos="zoom-in"
-            data-aos-duration="3000"
-            alt="Despedida"
-          />
-        </div>
-        <div class="event">
-          <img
-            src="assets/brindis.png"
-            data-aos="zoom-in"
-            data-aos-duration="3000"
-            alt="Ceremonia Religiosa"
-          />
-        </div>
-        <div class="event">
-          <img
-            src="assets/pareja.png"
-            data-aos="zoom-in"
-            data-aos-duration="3000"
-            alt="Nuestra Recepción"
-          />
-        </div>
+    <header class="timeline-header" data-aos="zoom-in" data-aos-duration="3000">
+      <p class="timeline1">{{ traductorService.getTexto("tituloItinerario1") }}</p>
+      <!-- <div class="linea" aria-hidden="true">
+        <span></span>
+        <b></b>
+        <span></span>
+      </div> -->
+    </header>
 
-        <div class="event">
-          <img
-            src="assets/plato.png"
-            data-aos="zoom-in"
-            data-aos-duration="3000"
-            alt="Cena"
-          />
+    <div class="timeline-container" data-aos="zoom-in" data-aos-duration="3000">
+      <article class="timeline-event">
+        <div class="timeline-icon">
+          <img src="assets/iglesia.png" alt="Misa">
         </div>
-        <div class="event">
-          <img
-            src="assets/bola-de-disco.png"
-            data-aos="zoom-in"
-            data-aos-duration="3000"
-            alt="Que Comience La Fiesta"
-          />
-        </div>
-        <!--
-        -->
-      </div>
-
-      <div class="timeline-line">
-        <div class="timeline-point"></div>
-        <div class="timeline-point"></div>
-        <div class="timeline-point"></div>
-        <div class="timeline-point"></div>
-        <div class="timeline-point"></div>
-      </div>
-
-      <div class="timeline-column-right" data-aos="zoom-in" data-aos-duration="3000">
-        <div class="event">
+        <span class="timeline-point"></span>
+        <div class="timeline-copy">
           <p class="event-title">Misa</p>
           <p class="event-time">12:00 PM</p>
         </div>
+      </article>
 
-        <div class="event" style="cursor: pointer">
-          <a class="event-title">CÓCTEL</a>
-          <div class="event-time-row">
-            <a class="event-time">6:00 PM</a>
-          </div>
+      <article class="timeline-event">
+        <div class="timeline-icon">
+          <img src="assets/brindis.png" alt="Coctel">
         </div>
+        <span class="timeline-point"></span>
+        <div class="timeline-copy">
+          <p class="event-title">Coctel</p>
+          <p class="event-time">6:00 PM</p>
+        </div>
+      </article>
 
-        <div class="event" style="cursor: pointer">
-          <a class="event-title">Entrada de <br />los novios</a>
-          <div class="event-time-row">
-            <a class="event-time">6:45 PM</a>
-          </div>
+      <article class="timeline-event">
+        <div class="timeline-icon">
+          <img src="assets/pareja.png" alt="Entrada de los novios">
         </div>
+        <span class="timeline-point"></span>
+        <div class="timeline-copy">
+          <p class="event-title">Entrada de<br>los novios</p>
+          <p class="event-time">6:45 PM</p>
+        </div>
+      </article>
 
-        <div class="event" style="cursor: pointer">
-          <a class="event-title">Cena</a>
-          <div class="event-time-row">
-            <a class="event-time">7:15 PM</a>
-          </div>
+      <article class="timeline-event">
+        <div class="timeline-icon">
+          <img src="assets/plato.png" alt="Cena">
         </div>
+        <span class="timeline-point"></span>
+        <div class="timeline-copy">
+          <p class="event-title">Cena</p>
+          <p class="event-time">7:15 PM</p>
+        </div>
+      </article>
 
-        <div class="event" style="cursor: pointer">
-          <a class="event-title">Fiesta</a>
-          <div class="event-time-row">
-            <a class="event-time">8:00 PM</a>
-          </div>
+      <article class="timeline-event">
+        <div class="timeline-icon">
+          <img src="assets/bola-de-disco.png" alt="Fiesta">
         </div>
-      </div>
+        <span class="timeline-point"></span>
+        <div class="timeline-copy">
+          <p class="event-title">Fiesta</p>
+          <p class="event-time">8:00 PM</p>
+        </div>
+      </article>
     </div>
-    <br /><br />
-
   </div>
-</div>
+</section>

@@ -18,6 +18,7 @@
   box-sizing: border-box;
   overflow: hidden;
   text-align: center;
+  color: #C9A35B;
 }
 
 .row {
@@ -48,7 +49,7 @@
 .titulo {
   //max-width: 11ch;
   margin: 0 auto 22px;
-  color: #fff;
+  color: #C9A35B;
   font-family: "Monrovia Modern Serif", serif;
   font-size: 40px;
   font-weight: 400;
@@ -67,7 +68,7 @@
 
 .text-title {
   margin: 0;
-  color: #fff;
+  color: #C9A35B;
   font-family: "Switzerland";
   font-size: 27px;
   font-weight: 300;
@@ -95,7 +96,7 @@
 .note-label,
 .info-label {
   margin-bottom: 6px;
-  color: rgba(255, 255, 255, 0.82);
+  color: #C9A35B;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -117,7 +118,7 @@
 .label-text,
 .form-label,
 .form-confirmacion-text-acompanantes {
-  color: #fff;
+  color: #C9A35B;
   line-height: 1.35;
   text-align: center;
 }
@@ -164,7 +165,7 @@
 .numeros {
   display: inline;
   margin-left: 6px;
-  color: #fff;
+  color: #C9A35B;
   font-family: "Quicksand", sans-serif;
   font-size: 34px;
   font-weight: 700;
@@ -174,7 +175,7 @@
 .choice-help,
 .guest-help {
   margin: 8px auto 0;
-  color: rgba(255, 255, 255, 0.86);
+  color: #C9A35B;
   font-size: 15px;
   line-height: 1.35;
 }
@@ -229,7 +230,7 @@
   border: 1px solid rgba(255, 255, 255, 0.76);
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.18);
-  color: #fff;
+  color: #C9A35B;
   font-family: "Quicksand", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -275,14 +276,14 @@
 .radio input[type="radio"]:checked + .name {
   border-color: #fff;
   background-color: #fff;
-  color: #9f6d6b;
+  color: #C9A35B;
   font-weight: 700;
   box-shadow: 0 10px 24px rgba(101, 64, 62, 0.18);
 }
 
 .radio input[type="radio"]:checked + .name .option-icon {
   background-color: #e3b8b6;
-  color: #fff;
+  color: #C9A35B;
 }
 
 .container-asistentes {
@@ -318,7 +319,7 @@
   border: 1px solid rgba(255, 255, 255, 0.84);
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.12);
-  color: #fff;
+  color: #C9A35B;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -335,7 +336,7 @@
   padding: 0;
   border: 0;
   background: transparent;
-  color: #fff;
+  color: #C9A35B;
   font-family: "Quicksand", sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -366,11 +367,11 @@
 .input-box:disabled {
   opacity: 1;
   cursor: default;
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: #C9A35B;
 }
 
 input::placeholder {
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(201, 163, 91, 0.78);
   opacity: 1;
 }
 
@@ -424,7 +425,7 @@ input::placeholder {
   border: 1px solid rgba(255, 255, 255, 0.84);
   border-radius: 50%;
   background-color: transparent;
-  color: #fff;
+  color: #C9A35B;
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
   line-height: 1;
@@ -434,7 +435,7 @@ input::placeholder {
 .btn-mas-invitados:hover,
 .btn-menos-invitados:hover {
   background-color: #fff;
-  color: #9f6d6b;
+  color: #C9A35B;
 }
 
 .button-confirmacion-container {
@@ -451,7 +452,7 @@ input::placeholder {
   border: 1px solid #fff;
   border-radius: 8px;
   background-color: #fff;
-  color: #9f6d6b;
+  color: #C9A35B;
   cursor: pointer;
   font-family: "Quicksand", sans-serif;
   font-size: 15px;
@@ -470,7 +471,7 @@ input::placeholder {
 .confirmacion-terminada,
 .titulo-radio-button {
   margin: 18px auto 0;
-  color: #fff;
+  color: #C9A35B;
   font-family: "Switzerland";
   font-size: 30px;
   font-weight: 300;
@@ -509,7 +510,7 @@ input::placeholder {
 .error-alert-text {
   width: 100%;
   margin: 10px auto 0;
-  color: #7c2222;
+  color: #C9A35B;
   font-family: "Quicksand", sans-serif;
   font-size: 14px;
   line-height: 1.25;
