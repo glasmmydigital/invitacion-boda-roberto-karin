@@ -1,0 +1,40 @@
+.contenedor-guar-fech{
+  position: relative;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.colum-guar-fech{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 525px;
+  margin: 0px auto;
+}
+
+.agregar-btn {
+  display: inline-block;
+  background-color: #151515;
+  color: #C9A35B;
+  padding: 8px 42px;
+  border: 2px solid #C9A35B;
+  border-radius: 50px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all .35s ease;
+  box-shadow: 0 0 0 3px rgba(201,163,91,.15);
+}
+
+.agregar-btn:hover{
+  background: #C9A35B;
+  color: #151515;
+}
+
+.agregar-btn:active {
+  background-color: #151515;
+  color: #C9A35B;
+  border-color: #C9A35B;
+}

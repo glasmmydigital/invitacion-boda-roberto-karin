@@ -1,0 +1,142 @@
+.contenedor-regalos {
+  position: relative;
+  text-align: center;
+}
+
+.colum-regalos {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 525px;
+  margin: 0px auto;
+}
+
+.container-regalos {
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+.linea {
+  align-items: center;
+  color: #C9A35B;
+  width: 100%;
+}
+
+.textosec {
+  font-family: "Cormorant", serif;
+  font-size: 20px;
+  margin-right: 7%;
+  margin-left: 7%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2B2B2B;
+  line-height: 1.7;
+}
+
+.titulop {
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1.7;
+  color: #151515;
+  letter-spacing: 2px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.numeroRegalo {
+  color: #4b687a;
+  text-decoration: none;
+}
+
+.titulo-dress {
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #545454;
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+}
+
+.img-icon {
+  width: 20%;
+  margin-bottom: 7%;
+}
+
+.img-icon-reg {
+  width: 15%;
+  margin-bottom: 3%;
+}
+
+.container-reg {
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+/* Oculta la imagen por defecto */
+.img-2 {
+  display: none;
+}
+
+/* Muestra la imagen solo en teléfonos (máximo 768px de ancho, ajusta según lo necesario) */
+@media screen and (max-width: 500px) {
+  .img-2 {
+    display: block;
+    margin-left: 10%;
+    position: absolute;
+    width: 40%;
+    margin-top: -8%;
+  }
+}
+
+.button-regalo {
+  display: inline-block;
+  background-color: #151515;
+  color: #C9A35B;
+  padding: 8px 42px;
+  border: 2px solid #C9A35B;
+  border-radius: 50px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all .35s ease;
+  box-shadow: 0 0 0 3px rgba(201, 163, 91, .15);
+}
+
+.button-regalo:hover {
+  background: #C9A35B;
+  color: #151515;
+}
+
+.button-regalo:active {
+  background-color: #151515;
+  color: #C9A35B;
+  border-color: #C9A35B;
+}
+
+.card {
+  width: 500px;
+  border: 1px solid #D6BB84;
+  border-radius: 18px;
+  background: #FFFFFF;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+.card-body {
+  padding: 35px;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 350px) {
+  .card {
+    width: 270px;
+  }
+}
