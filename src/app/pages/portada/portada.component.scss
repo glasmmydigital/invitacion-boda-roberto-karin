@@ -30,6 +30,7 @@
   src: url("/assets/Nathalia.ttf") format("truetype");
 }
 
+
 .tituloportada {
   position: absolute;
   width: 100%;
@@ -73,13 +74,12 @@
 .textName {
   position: relative;
   text-align: center;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "adelia";
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 2px;
   color: #C9A35B;
-  /* tono gris-azulado */
-  line-height: 1.2;
+  line-height: 2.0;
 }
 
 .name1 {
@@ -88,12 +88,9 @@
 
 .name2 {
   margin: 0;
-  text-transform: uppercase;
 }
 
 .ampersand {
-  font-family: Nathalia;
-  font-size: 90px;
   color: #C9A35B;
   font-weight: 400;
   line-height: 1;
@@ -366,7 +363,7 @@
 .textoT {
   font-family: "Cormorant", serif;
   color: #C9A35B;
-  margin: 1% 5% 5% 5%;
+  margin: 1% 15% 5% 15%;
   text-align: center;
   font-weight: 400;
   font-size: 20px;

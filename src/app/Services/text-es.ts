@@ -54,7 +54,7 @@ export const TEXT_ES:{[key: string]: string } = {
   // VESTIMENTA O DRESS CODE
   tituloVestimenta: 'VESTIMENTA',
   textoVestimentaUno: 'Long gown cocktail dress',
-  textoVestimentaDos: 'Queremos que cada detalle de nuestra celebración refleje la esencia de este día tan importante. Por ello, les pedimos vestir de manera formal y evitar los colores blanco (y sus tonalidades), rojo y verde en los atuendos. Además, les agradecemos no utilizar corbatas en tonos verde o azul. Su comprensión y cariño harán que este momento sea aún más especial.',
+  textoVestimentaDos: 'Agradecemos no utilizar <br>estos colores:',
   // NUESTROS MOMENTOS
   tituloMomentos: 'Nuestros Momentos',
   textoMomentos: 'Ayuda a que nuestros recuerdos de este día especial crezcan. Usa el código QR para compartir tus momentos y ser parte de nuestra historia',
